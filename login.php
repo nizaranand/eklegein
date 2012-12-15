@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-require_once 'resources/config.php';
+require_once('resources/config.php');
 require_once(LIBRARY_PATH.'/mysql.php');
  if($_POST){
     $usuario = $_POST['user'];
