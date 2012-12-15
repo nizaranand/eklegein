@@ -1,0 +1,361 @@
+/* 
+    Document   : estilo
+    Created on : 18-oct-2012, 15:18:07
+    Author     : David
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+BODY { 
+    background: white url(../img/fondo_corto.png);
+    background-repeat: repeat-x;
+    font : 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color : white; 
+    margin : auto; 
+    text-align: center; 
+}
+
+#contenedor{  
+    width: 800px; 
+    height: 600px;
+    background-color: transparent; 
+    margin: auto;
+} 
+
+#cabecera{ 
+    height: 115px; 
+    width: 800px;
+    background-color: transparent;
+} 
+
+#titulo{ 
+    width: 800px;
+    height: 125px;
+    text-align: left;
+    background-color: transparent;  
+    margin: 87px 0 0 71px;
+} 
+
+#cuerpo{ 
+    width:800px;
+    height: 300px;
+    margin-left: 100px;  
+    background-color: transparent; 
+}
+
+#pie{
+    width: 800px;
+    height: 100px;
+    color: black;
+    margin-top: 80px;
+}
+
+#aceptar{ 
+    font-weight : bold;
+    width: 100px;
+    margin: 30px 0px 0px 117px;
+    background-color: gray;
+    border: 2px solid #444444;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#aceptar_olvidar_password{ 
+    font-weight : bold;
+    width: 100px;
+    margin: 30px 0px 0px 140px;
+    background-color: gray;
+    border: 2px solid #444444;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#parrafo{
+    width: 800px;
+    height: 0px;
+    font-weight : bold;
+    text-align: left;
+    margin: 97px 0 -15px 451px;
+}
+
+#registro_error_nick{
+    width: 630px;
+    height: 33px;
+    padding-top: 0px;
+    margin: 0px 0px 0px -336px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: red;
+    display:none;
+}
+
+#registro_error_pass{
+    position: absolute;
+    top: 473px;
+    width: 630px;
+    height: 33px;
+    margin: 0px 0px 0px -336px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: red;
+    z-index: -1;
+    display:none;
+}
+
+#registro_error_email{
+    position: absolute;
+    top: 509px;
+    width: 630px;
+    height: 33px;
+    margin: 0px 0px 0px -336px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: red;
+    z-index: -1;
+    display:none;
+}
+
+#registro_ok_email{
+    width: 630px;
+    height: 33px;
+    padding-top: 0px;
+    margin: 0px 0px 0px -336px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    background-color: green;
+    display: none;
+}
+
+#contendor_error{
+    height: 1px;
+    width: 597px;
+}
+
+#registro_posicion_nick{
+    margin: 5px 10px 10px -380px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    display: none;
+}
+
+#registro_posicion_nick_existe{
+    margin: 5px 10px 10px -380px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    display: none;
+}
+
+#registro_posicion_pass{
+    margin: 5px 10px 10px -380px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    display: none;
+}
+
+#registro_posicion_email{
+    margin: 5px 10px 10px -380px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    display: none;
+}
+
+#registro_posicion_email_formato{
+    margin: 5px 10px 10px -380px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    display: none;
+}
+
+.formulario{
+    margin: 110px 152px 0px 371px;
+}
+
+#formulario_fallo{
+    margin: 110px 152px 0px 371px;
+}
+
+.login{
+    width: 190px;
+    height: 25px;
+    float: right;
+    margin: 0px 10px;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px
+}
+
+#login{
+    width: 190px;
+    height: 25px;
+    float: right;
+    margin: 0px 10px;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px
+}
+
+
+.olvidar_mail{
+    width: 223px;
+    height: 25px;
+    float: right;
+    margin: -4px -23px -11px 0;
+    border-color: white;
+    border-radius: 5px 5px 5px 5px
+}
+
+
+.clik{
+    color: white; 
+    width: 100px;
+    height: 24px;
+    text-align: center;
+    border-width: bold;
+    background: gray; 
+    border: 2px solid #444444;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.clik_olvidar_password{
+    color: white; 
+    width: 100px;
+    height: 24px;
+    text-align: center;
+    border-width: bold;
+    background: gray; 
+    border: 2px solid #444444;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.fallo_user_pass{
+    width: 600px;
+    height: 33px;
+    padding-top: 10px;
+    margin: 0px 0px 0px -453px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: red;
+}
+
+#fallo_user_pass{
+    width: 600px;
+    height: 33px;
+    padding-top: 10px;
+    margin: 0px 0px 0px -453px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: red;
+}
+
+.fallo_nick_pass_email{
+    width: 600px;
+    height: 33px;
+    padding-top: 10px;
+    margin: 0px 0px 0px -327px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    background-color: red;
+}
+
+.equis{
+    width: 3px;
+    margin-right: 90px;
+    margin-left: -45px;
+    font-size: 15px;
+}
+
+.mensaje_error{
+    margin-right: 92px;
+}
+
+A.letras_formulario{
+    font-size: 11px;
+    font-weight: bold;
+    width: 58px;
+    height: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+A.letras_formulario_email{
+    font-size: 11px;
+    font-weight: bold;
+    width: 70px;
+    height: 18px;
+    color: white;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+A.olvidar_password{
+    font-size: 11px;
+    font-weight: bold;
+    width: 58px;
+    height: 18px;
+    margin-right: -60px;
+    color: white;
+    text-decoration: none;
+}
+
+A.enlacenav, A.enlacenav:VISITED, A.enlacenav:ACTIVE, A.enlacenav:FOCUS, A.enlacenav:LINK{
+    width: 100px;
+    height: 20px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin: 10px;
+    border: 2px solid #444444;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    text-align: center;
+} 
+
+A.enlacenav:HOVER{ 
+    color: #3F7DE3; 
+}
+
+A.pie_dudas{
+    margin-left: 300px;
+}
+
+A.pie_mail{
+    margin: 0px 0px 0px 605px;
+}
+
+H1{ 
+    font-size: 12pt; 
+}
+
+label.error { 
+    width: 100px;
+    height: 20px;
+    display: none;
+    color: white; 
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 5px 5px 5px 5px;
+}
+
+table {
+    width:100%;
+    text-align: left;
+}
+
+td.formulario {
+    padding-bottom: 10px;
+}
+
+td.aceptar {
+    padding: 26px 0px 0px 54px;
+}
+
+td.letras_formulario{
+    padding-bottom: 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+tr.ancho {
+    width: 400px;
+}
